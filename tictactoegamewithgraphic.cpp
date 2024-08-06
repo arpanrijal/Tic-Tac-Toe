@@ -368,7 +368,7 @@ public:
 			}
 			FLAG = -1;
 		}
-		else if(life == 5)
+		else if (life == 5)
 		{
 			DrawRectangle(0, 290, GetScreenWidth(), 60, Fade(RAYWHITE, 5.0f));
 			DrawText("Match Draw! Nobody Win", 40, 300, 50, VIOLET);
